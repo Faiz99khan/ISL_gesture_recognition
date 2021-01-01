@@ -36,11 +36,13 @@ I used Google colab GPU to train or fine tune the classifier.
 Use [training.ipynb]() to train or fine tune the classifier on Google colab GPU or your own GPU
 
 ## Pretrained models
-Download pretrained ResNeXt_101 classifier model from [here](), which is trained on [jester](https://20bn.com/datasets/jester) largest dynamic hand gesture dataset.
+Download pretrained ResNeXt_101 classifier model from [here](https://drive.google.com/uc?export=download&id=1W-jNAvfjSwXghmiFTNu7hHEFFS5pEgEJ), which is trained on [jester](https://20bn.com/datasets/jester) largest dynamic hand gesture dataset.
 
-Download pretrained ResNetl_10 detector model from [here](), which is trained on [Egogesture](http://www.nlpr.ia.ac.cn/iva/yfzhang/datasets/egogesture.html) dynamic hand gesture dataset. 
+Download pretrained ResNetl_10 detector model from [here](https://drive.google.com/uc?export=download&id=19rQQUKuzqjX2V0K9xIpvcjs1Fdi-1UjB), which is trained on [Egogesture](http://www.nlpr.ia.ac.cn/iva/yfzhang/datasets/egogesture.html) hand gesture dataset. 
 
-Download fine tuned ResNeXt_101 classifier model from [here](), which is fine tuned on our ISL hand gesture dataset.
+Download fine tuned ResNeXt_101 classifier model from [here](https://drive.google.com/uc?export=download&id=1W-jNAvfjSwXghmiFTNu7hHEFFS5pEgEJ), which is fine tuned on our ISL hand gesture dataset.
+
+Note: To run the app you would just need detector and classifier, after downloading, place them in same directory where all other files are present.
 
 ## Technologies used
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
