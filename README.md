@@ -41,3 +41,8 @@ Download fine tuned ResNeXt_101 classifier model from [here](), which is fine tu
 Licensed under [MIT Licencse](LICENSE)
 
 ## Credits
+I thank Okan Köpüklü, Ahmet Gündüz et al. for providing the [codebase](https://github.com/ahmetgunduz/Real-time-GesRec) and i build this project on top of that.
+
+I also thank my freinds Kunal Singh Bhandari, Mohd. Bilal and Digant Bhanwariya who all helped me in Web App design and data creation.
+
+I also want to thank to Google for providing [free Colab GPU](https://colab.research.google.com/notebooks/intro.ipynb) service to everyone, due to which i was able to train the model.
