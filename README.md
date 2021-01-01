@@ -33,9 +33,9 @@ Download fine tuned ResNeXt_101 classifier model from [here](), which is fine tu
 ## Technologies used
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" width=350 >](https://pytorch.org/) [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" width=150 >](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html) [<img target="_blank" src="https://raw.githubusercontent.com/python-pillow/pillow-logo/master/pillow-logo-248x250.png" width=150>](https://pillow.readthedocs.io/en/stable/installation.html) 
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Pytorch_logo.png" width=350 >](https://pytorch.org/) [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/5/53/OpenCV_Logo_with_text.png" width=150 >](https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html) &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [<img target="_blank" src="https://raw.githubusercontent.com/python-pillow/pillow-logo/master/pillow-logo-248x250.png" width=150>](https://pillow.readthedocs.io/en/stable/installation.html) 
 
-[<img target="_blank" src="https://matplotlib.org/3.2.1/_static/logo2_compressed.svg" width=300>](https://matplotlib.org/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=200>](https://flask.palletsprojects.com/en/1.1.x/)
+[<img target="_blank" src="https://matplotlib.org/3.2.1/_static/logo2_compressed.svg" width=300>](https://matplotlib.org/) &nbsp;&nbsp;&nbsp;&nbsp; [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=200>](https://flask.palletsprojects.com/en/1.1.x/)
 
 ## License
 Licensed under [MIT Licencse](LICENSE)
