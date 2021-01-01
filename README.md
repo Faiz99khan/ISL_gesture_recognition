@@ -1,5 +1,17 @@
 # ISL_hand_gesture_recognition_in_real-time
 
+## Table of Contents
+  * [Results](#results)
+  * [Overview](#overview)
+  * [Abstract](#abstract)
+  * [Installation](#installation)
+  * [Run](#run)
+  * [Training](#training)
+  * [Pretrained models](#pretrained-models)
+  * [Technologies Used](#technologies-used)
+  * [License](#license)
+  * [Credits](#credits)
+
 ## Results
 
 ## Overview
