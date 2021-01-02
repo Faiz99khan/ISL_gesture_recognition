@@ -1,7 +1,7 @@
 # ISL_hand_gesture_recognition_in_real-time
 
 ## Table of Contents
-  * [Results](#results)
+  * [Result](#result)
   * [Overview](#overview)
   * [Abstract](#abstract)
   * [Installation](#installation)
@@ -12,13 +12,17 @@
   * [License](#license)
   * [Credits](#credits)
 
-## Results
+## Result
+<p align="center">
+ <img src="results/video_based_gif_rsz.gif" alt="animated"/>
+</p> 
+In this result, recognition is done on 5-9 ISL hand gesture. A video is played in left window and the same video is played in right window after processing. Process video is playing slowly because i have no good GPU, using google colab GPU, i am able to play process video at around 8 FPS. 
 
 ## Overview
 It is a vision-based system in which deep 3d CNN arhitecture is used to recognize ISL hand gesture in real-time and video using tranfer learning. It recognize 10 ISL hand gestures for numeric digits (0-9) in which all are static gesture except gesture for 6 which is dynamic. But, it can be extended for large no. of gesture classes without requiring huge amount of data. It gives around 85 % accuracy on video stream.  
 
 ## Abstract
-Real-time recognition of ISL hand gestures using vision-based system is a challenging task because there is no indication when a dynamic gesture is starts and ends in a video stream and there is no ISL data publically available unlike ASL, to work on. In this work, we handle these challenges by doing transfer learning and operating deep 3D CNN architecture using sliding window approach. Sliding window approach suffers with multiple time activations problem but we remove it by doing some post processing. To find the region of interest(RoI) is also a difficult task, we solve this using face detection algorithm. The proposed architecture consists of two models: (1) A detector which is a lightweight CNN architecture to detect gestures and (2) a classifier which is a deep CNN to classify the detected gestures. To measure misclassiﬁcations, multiple detections, and missing detections at the same time, we use Levenshtein Distance. Using this, we find Levenshtein accuracy on video stream. We create our own data set of 10 ISL hand gestures for numeric digits(0-9), in which just 70 samples are created for each gesture class. We fine tune ResNeXt-101 model on our data set, which is used as a classifier, achieves good classification accuracy of 95.79 % and 94.39 % on training set and validation set respectively and around 85 % considerable accuracy on video stream.
+Real-time recognition of ISL hand gestures using vision-based system is a challenging task because there is no indication when a dynamic gesture is starts and ends in a video stream and there is no ISL data publically available unlike ASL, to work on. In this work, i handle these challenges by doing transfer learning and operating deep 3D CNN architecture using sliding window approach. Sliding window approach suffers with multiple time activations problem but i remove it by doing some post processing. To find the region of interest(RoI) is also a difficult task, i solve this using face detection algorithm. The proposed architecture consists of two models: (1) A detector which is a lightweight CNN architecture to detect gestures and (2) a classifier which is a deep CNN to classify the detected gestures. To measure misclassiﬁcations, multiple detections, and missing detections at the same time, i use Levenshtein Distance. Using this, i find Levenshtein accuracy on video stream. i create own dataset of 10 ISL hand gestures for numeric digits(0-9), in which just 70 samples are created for each gesture class. i fine tune ResNeXt-101 model on the dataset, which is used as a classifier, achieves good classification accuracy of 95.79 % and 94.39 % on training set and validation set respectively and around 85 % considerable accuracy on video stream.
 
 ## Installation
 Just install the necessary libraries mentioned in the [requirements.txt](requirements.txt).
