@@ -37,7 +37,7 @@ Note: I tested it only on windows not on other os platforms like Linux, macOS.
 ## Training
 I used Google colab GPU to train or fine tune the classifier.
 
-Use [training.ipynb]() to train or fine tune the classifier on Google colab GPU or your own GPU
+Use [training.ipynb](training.ipynb) to train or fine tune the classifier on Google colab GPU or your own GPU
 
 ## Pretrained models
 Download pretrained ResNeXt_101 classifier model from [here](https://drive.google.com/uc?export=download&id=1W-jNAvfjSwXghmiFTNu7hHEFFS5pEgEJ), which is trained on [jester](https://20bn.com/datasets/jester) largest dynamic hand gesture dataset.
