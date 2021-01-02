@@ -16,7 +16,7 @@
 <p align="center">
  <img src="results/video_based_gif_rsz.gif" alt="animated"/>
 </p> 
-In this result, recognition is done on 5-9 ISL hand gesture. A video is played in left window and the same video is played in right window after processing. Process video is playing slowly because i have no good GPU, using google colab GPU, i am able to play process video at around 8 FPS. 
+In this result, recognition is done on 5-9 ISL hand gesture video. The video is played in left window and the same video is played in right window after processing. Process video is playing slowly because i have no good GPU, using google colab GPU, i am able to play process video at around 8 FPS. 
 
 ## Overview
 It is a vision-based system in which deep 3d CNN arhitecture is used to recognize ISL hand gesture in real-time and video using tranfer learning. It recognize 10 ISL hand gestures for numeric digits (0-9) in which all are static gesture except gesture for 6 which is dynamic. But, it can be extended for large no. of gesture classes without requiring huge amount of data. It gives around 85 % accuracy on video stream.  
