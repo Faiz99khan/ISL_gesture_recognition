@@ -1,0 +1,14 @@
+python==3.7.6
+opencv-python==4.4.0.46
+torch==1.7.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.8.2+cpu -f https://download.pytorch.org/whl/torch_stable.html 
+pillow==8.0.1
+scikit-learn==0.24.0
+facenet-pytorch==2.5.1
+ffmpeg-python==0.2.0
+matplotlib
+jupyter
+pandas
+flask==1.1.2
+playsound
+openpyxl
