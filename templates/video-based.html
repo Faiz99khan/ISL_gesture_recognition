@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Video Based Recognition</title>
+        <style>
+                body{
+                        background-image: url("{{ url_for('static', filename='img/neural_network.gif') }}");
+                        background-attachment: fixed;
+                        border:none;
+                    }
+
+                button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #FF4500;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 30%;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+            }
+
+            button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+            }
+
+            button:hover span {
+            padding-right: 25px;
+            }
+
+            button:hover span:after {
+            opacity: 1;
+            right: 0;
+            }
+
+            div {
+            text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 style="color: #FFFFFF;font-size:300%">Video Based Recognition</h1>
+        </div>
+        <div style="padding-left:110px">
+            <img id="1" src="{{ url_for('video_feed',video='normal_video') }}" width="45%" align="left">
+        </div>
+        <div style="padding-right:110px">
+            <img id="2" src="{{ url_for('video_feed',video='function_video') }}" width="45%" align="right">
+        </div>
+        <div>
+            <button><a href="/" style="color: #FFFFFF;">Go Back to Home Page</a></button>
+        </div>
+    </body>
+</html>

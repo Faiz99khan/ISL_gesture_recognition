@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <style>
+            body{
+                background-image: url("{{ url_for('static', filename='img/neural_network.gif') }}");
+                background-attachment: fixed;
+                }
+
+            button {
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #FF4500;
+                border: none;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 28px;
+                padding: 20px;
+                width: 30%;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+            }
+
+            button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+            }
+
+            button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+            }
+
+            button:hover span {
+            padding-right: 25px;
+            }
+
+            button:hover span:after {
+            opacity: 1;
+            right: 0;
+            }
+
+            div {
+            text-align:center;
+            }
+
+            input[type=text] {
+            background-color: #668cff;
+            display: inline-block;
+            border-radius: 4px;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 30%;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            }
+
+            input[type=text]:focus {
+            background-color: #b3c6ff;
+            border: 3px solid #555;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="padding-top:0px">
+            <h1 style="color: #FFFFFF;font-size:300%">Indian Sign Language</h1>
+            <h1 style="color: #FFFFFF;font-size:300%">Recognition</h1>
+        </div>
+        <form action="{{ url_for('real_time') }}" method="post">
+            <div style="padding-top:120px">
+                <button type="submit" name="real_time" value="real-recognition">Real-Time Recognition</button>
+            </div>
+        </form>
+        <form action="{{ url_for('video_based') }}" method="post">
+            <div style="padding-top:90px">
+                <input type="text" id="path" placeholder="Enter Path Of Video File" name="video_path" required>
+            </div>
+            <div>
+                <button type="submit" name="video_based" value="video-recognition">Recognition On Video File</button>
+            </div>
+        </form>
+    </body>
+</html>
