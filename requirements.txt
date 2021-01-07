@@ -79,7 +79,7 @@ threadpoolctl==2.1.0
 torch==1.7.1+cpu
 torchvision==0.8.2+cpu
 tornado==6.1
-traitlets==5.0.5
+traitlets==4.3.3
 typing-extensions==3.7.4.3
 urllib3==1.26.2
 wcwidth==0.2.5
