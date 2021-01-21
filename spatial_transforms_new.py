@@ -12,11 +12,11 @@ try:
 except ImportError:
     accimage = None
 
-import matplotlib.pyplot as plt
+
 #import dlib
 from facenet_pytorch import MTCNN
 import cv2 
-import pandas as pd
+
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL  import Image
