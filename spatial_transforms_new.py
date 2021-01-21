@@ -17,7 +17,6 @@ except ImportError:
 from facenet_pytorch import MTCNN
 import cv2 
 
-import matplotlib.pyplot as plt
 import numpy as np
 from PIL  import Image
 import os
